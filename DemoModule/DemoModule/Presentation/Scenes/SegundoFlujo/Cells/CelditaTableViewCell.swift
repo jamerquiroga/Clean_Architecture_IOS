@@ -1,16 +1,16 @@
 //
-//  JojoTableViewCell.swift
-//  module
+//  CelditaTableViewCell.swift
+//  DemoModule
 //
-//  Created by Daniel Aragon Ore on 3/18/19.
-//  Copyright © 2019 bcp. All rights reserved.
+//  Created by everis on 27/03/19.
+//  Copyright © 2019 Jamer Quiroga. All rights reserved.
 //
 
 import UIKit
 
-class JojoTableViewCell: UITableViewCell {
+class CelditaTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var lblName: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

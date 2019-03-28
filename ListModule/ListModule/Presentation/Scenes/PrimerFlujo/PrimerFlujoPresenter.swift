@@ -22,6 +22,7 @@ class PrimerFlujoPresenter {
     private var interactor: DummyUseCase
     private var viewData: ViewData?
     private var namesList: [String] = []
+    
     init(view:PrimerFlujoViewControllerProtocol, router:PrimerFlujoRouterProtocol,andData viewData:ViewData?) {
         self.view = view
         self.router = router

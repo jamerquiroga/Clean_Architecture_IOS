@@ -17,6 +17,8 @@
 		50F46E6D224134B9006A2438 /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50F46E6B224134B9006A2438 /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50F46E6F224134B9006A2438 /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F46E6E224134B9006A2438 /* Data.framework */; };
 		50F46E70224134B9006A2438 /* Data.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50F46E6E224134B9006A2438 /* Data.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9AC76DD6224D2AE2004BCE90 /* DemoModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC76DD5224D2AE2004BCE90 /* DemoModule.framework */; };
+		9AC76DD7224D2AE2004BCE90 /* DemoModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC76DD5224D2AE2004BCE90 /* DemoModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,7 @@
 				50F46E70224134B9006A2438 /* Data.framework in Embed Frameworks */,
 				50F46E6D224134B9006A2438 /* Domain.framework in Embed Frameworks */,
 				500F7C9D2242C6CB00D018C1 /* ListModule.framework in Embed Frameworks */,
+				9AC76DD7224D2AE2004BCE90 /* DemoModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +48,7 @@
 		50CE30DC223FEF7900BE16E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50F46E6B224134B9006A2438 /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F46E6E224134B9006A2438 /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC76DD5224D2AE2004BCE90 /* DemoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DemoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				50F46E6F224134B9006A2438 /* Data.framework in Frameworks */,
 				50F46E6C224134B9006A2438 /* Domain.framework in Frameworks */,
 				500F7C9C2242C6CB00D018C1 /* ListModule.framework in Frameworks */,
+				9AC76DD6224D2AE2004BCE90 /* DemoModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +69,7 @@
 		50CE30C4223FEF7600BE16E5 = {
 			isa = PBXGroup;
 			children = (
+				9AC76DD5224D2AE2004BCE90 /* DemoModule.framework */,
 				500F7C9B2242C6CB00D018C1 /* ListModule.framework */,
 				50F46E6E224134B9006A2438 /* Data.framework */,
 				50F46E6B224134B9006A2438 /* Domain.framework */,
@@ -337,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 778N4TU227;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
 				INFOPLIST_FILE = module/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -357,7 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 778N4TU227;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
 				INFOPLIST_FILE = module/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

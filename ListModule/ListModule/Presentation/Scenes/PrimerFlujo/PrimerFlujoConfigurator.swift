@@ -15,7 +15,9 @@ protocol PrimerFlujoConfiguratorProtocol{
 class PrimerFlujoConfigurator : PrimerFlujoConfiguratorProtocol {
     
     func configure(viewController: PrimerFlujoViewController) {
+        
         viewController.presenter = PrimerFlujoPresenter(view:viewController,router:PrimerFlujoRouter(withView:viewController), andData:viewController.viewData)
+        
     }
     
 }

@@ -35,12 +35,14 @@ class PrimerFlujoViewController : UIViewController{
 }
 
 extension PrimerFlujoViewController:PrimerFlujoViewControllerProtocol{
+    
     func refresh() {
         self.tableView.reloadData()
     }
 }
 
 extension PrimerFlujoViewController: UITableViewDelegate, UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter.getNamesCount()
     }

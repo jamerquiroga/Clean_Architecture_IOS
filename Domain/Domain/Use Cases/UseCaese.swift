@@ -10,4 +10,7 @@ import Foundation
 public protocol DummyUseCase{
 //    func getJojoList(handler: @escaping (PackageResponse?, Error?) -> (Void))
     func getJojoList(handler: @escaping ([String]?, Error?) -> (Void))
+    
+    func getProgrammingLanguageList(handler: @escaping ([String]?, Error?) -> (Void))
 }
+    		

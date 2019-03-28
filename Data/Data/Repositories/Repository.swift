@@ -24,4 +24,8 @@ extension DummyRepository{
     public func getPackagesList(handler: @escaping ([String]?, Error?) -> (Void)) {
         handler(["jojo", "johnathan joestar", "joseph joestar", "jotaro kujo", "josuke higashikata", "jolyne kujo", "johnny joestar"], nil)
     }
+    
+    public func getProgrammingLanguageList(handler: @escaping ([String]?, Error?) -> (Void)){
+        handler(["Java", "Kotlin", "Swift", "Dart", "C#", "C++"], nil)
+    }
 }

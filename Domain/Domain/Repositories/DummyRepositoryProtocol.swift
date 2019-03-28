@@ -8,5 +8,8 @@
 
 import Foundation
 public protocol DummyRepositoryProtocol{
+    
     func getPackagesList(handler: @escaping ([String]?, Error?) -> (Void))
+    
+    func getProgrammingLanguageList(handler: @escaping ([String]?, Error?) -> (Void))
 }
